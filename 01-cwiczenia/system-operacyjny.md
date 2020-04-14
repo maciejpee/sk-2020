@@ -50,7 +50,7 @@
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15     | przydzielony przez DHCP |
 | Maska podsieci| 10.0.2.15/24  | Notacja cidr 255.255.255.0 | 
-| Brama         | 10.0.2.2      | #wg ip groupe show   default from route table|
+| Brama         | 10.0.2.2      | #wg ip groupe show , default from route table|
 | DNS 1         | 10.10.0.8     | cat /etc/resolv.conf |
 | DNS 2         | 10.10.04      | nslookup uek.krakow.pl |
 
