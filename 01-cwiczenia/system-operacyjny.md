@@ -39,18 +39,18 @@
 | nazwa                     | linux                 | centos 7                  |
 | cfg interfejsów           | centos 7 | /etc/sysconfig/network-scripts         |
 | program (parametry sieci) | niewiem               |                           |
-| Nazwa                     | Alpine                 |                           |
-| Parametry IP              | $ ip all              |show all ip configuration  |
-| routing table             | $ ip route show       | default jest gateway -em  |
-| DNS config                | $ cat /etc/resolv.conf| DNS                      |
+| Nazwa                     | Alpine Linux              |                           |
+| Parametry IP              | $ ip all              |show all eth interfaces  |
+| routing table             | $ ip route show       | what is gateway?!  |
+| DNS config                | $ cat /etc/resolv.conf| which DNS  were set                   |
 
 ### Konfiguracja połączenia sieciowego Alpine
 
 | Parametr      | wartość       | komentarzu |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15     | przydzielony przez DHCP |
-| Maska podsieci| 10.0.2.15/24  | Notacja cidr | 
-| Brama         | 10.0.2.2      | #wg ip groupe show |
+| Maska podsieci| 10.0.2.15/24  | Notacja cidr 255.255.255.0 | 
+| Brama         | 10.0.2.2      | #wg ip groupe show   default from route table|
 | DNS 1         | 10.10.0.8     | cat /etc/resolv.conf |
 | DNS 2         | 10.10.04      | nslookup uek.krakow.pl |
 
