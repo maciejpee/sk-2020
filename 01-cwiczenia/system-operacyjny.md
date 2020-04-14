@@ -26,7 +26,7 @@
   
     Przygotuj dokumentację graficzną Twojej sieci domowej, uwzględnij adresy i urządzenia
 
-3. Zarejestruj konto w CISCO Academy celem pobrania Packet tracer 
+3. Zarejestruj konto w CISCO Academy celem pobrania Packet tracer
    https://www.netacad.com/courses/packet-tracer
 
 4. Dlaczego umiejętnosci z zakresu sieci komputerowych mogą mi się przydać? :)
@@ -39,21 +39,41 @@
 | nazwa                     | linux                 | centos 7                  |
 | cfg interfejsów           | centos 7 | /etc/sysconfig/network-scripts         |
 | program (parametry sieci) | niewiem               |                           |
-| ....                      | .....                 |                           |
-| nazwa                     | Alpine Linux          |                           |
-| Konfiguracja ip           | ``$ ip all ``         | show all eth interfaces   | 
-| Tablica routingu          | ``$ ip route show ``  | what is gateway?!         | 
-| check nameservers (DNS)   | ``$ cat /etc/resolv.conf ``  | which DNS were set | 
+| Nazwa                     | Apine                 |                           |
+| Parametry IP              | $ ip all              |show all ip configuration  |
+| routing table             | $ ip route show       | default jest gateway -em  |
+| DNS config                | $ cat /etc/resolv.conf| DNS                      |
 
-### Konfiguracja połączenia sieciowego
+### Konfiguracja połączenia sieciowego Alpine
 
-| Parametr | wartość           | komentarzu |
+| Parametr      | wartość       | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      | 10.0.2.15        | przydzielony przez DHCP |
-| Maska podsieci| 10.0.2.15/**24** | **255.255.255.0**    |
-| Brama         | 10.0.2.2         | default from route table |
-| DNS 1         | 10.10.4.204      | cat /etc/resolv.conf     |
-| DNS 2         | 1.1.1.1          | nslookup uek.krakow.pl   |
+| Adres IP      | 10.0.2.15     | przydzielony przez DHCP |
+| Maska podsieci| 10.0.2.15/24  | Notacja cidr | 
+| Brama         | 10.0.2.2      | #wg ip groupe show |
+| DNS 1         | 10.10.0.8     |  |
+| DNS 2         | 10.10.04      |  |
+
+### Konfiguracja połączenia sieciowego CentOS
+
+| Parametr      | wartość       | komentarzu |
+| ------------- |:-------------:| -----:|
+| Adres IP      | 127.0.0.1     | przydzielony przez DHCP |
+| Maska podsieci| 127.0.0.1/8   | Notacja cidr | 
+| Brama         | 10.0.2.2      | #wg ip groupe show |
+| DNS 1         | 10.10.0.8     |  |
+| DNS 2         | 10.10.04      |  |
+
+
+## Charakterystyka mojego komputera w sieci domowej
+
+| Parametr      | wartość       | komentarzu |
+| ------------- |:-------------:| -----:|
+| Adres IP      | 10.71.119.83  |  |
+| Maska podsieci| 225.225.240.0 |  | 
+| Brama         | 10.71.112.1   |  |
+| DNS 1         | 217.113.224.135     |  |
+| DNS 2         | 217.113.224.134      |  |
 
 ### Schemat sieci
 
