@@ -67,6 +67,8 @@
 
 ### Schemat sieci
 
+![my network](siec_domowa.png)
+
 aby załączyć obrazek 
 
 ```markdown
