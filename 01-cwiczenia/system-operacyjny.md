@@ -67,7 +67,8 @@
 
 ### Schemat sieci
 
-![my network](siec_domowa.drawio)
+<mxfile host="app.diagrams.net" modified="2020-04-18T23:05:10.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="7aSc9Sys2Q5CODTBZE4t" version="12.9.2" type="github"><diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">3VhNd6IwFP01LOshBKwu1X7MotPTMy7amV0KETIGwsRQcX79JJAImGrbczpFdaG++xJC7n3XZ3DgLC1vOcqT7yzC1PHcqHTgleN5lx6Q7wrYaMCHNRBzEtUQaIA5+Ys16Gq0IBFedQYKxqggeRcMWZbhUHQwxDlbd4ctGO2umqMYW8A8RNRGH0kkEo0C120S3zCJE730KNCJZxQuY86KTK/neHBRvep0isy19PhVgiK2bkHw2oEzzpiov6XlDFNFraGtnnezJ7u9b44z8Z4J9zRYjJeT+SR8eAyiVXb79Atc6Ku8IFpoPn6wQmDueEOU5g6cZs8r9SFjKleZPqtMLCqk2pTYGCIrKrBazJXpdUIEnucoVNm1rByJJSKlMgLb2S+YC1zu3Q/YsiSLD7MUC76RQ/QEaIjVhQehjtctGc2YpKXgUGNIV068vXTDnvyiCfwAmWr+Dik4ksWmQ8ZFwmKWIXrdoNMubc2YO8ZyTdZvLMRGOwcVgnWpxCURT2r6INDRz1bmqtRXroKNCbJoorwjw4xluEZuiNpula/3oW7+sDhyr6zgIT5EivY04jEWb1WiLTbHFAny0r2Pz1fOssE8RVzkiSLn9KwA/N6tAHu1QssIjS16twI8BStAywpXxRLxJToBHwSXR9cS/ONpCe6x+MA/BR/4H2oJR9YAAq/3wgcWKV9Y+MD5SAOQ+31qB61ZKmymVVEPhglOwTCBZZiHWe/GGB1bQxhaLIGxNwDD0WA0AObuWoTJrYsuKyvB2RLPGGW8Kb2FrLsdCFESZzIMJVXyQAenikgiD74TnUhJFFW2e02GrlCfoMT2QG2kALYU/itKeP9LidEhJVz75+tslID+zmnhlWbxpUqMDyoxPGMldtu227MSxpN7pLCfb5yNFMH4yH6egN1PzYlrweSe2jIM/xTMJC5W1Z+jiRwARnnZJM0p7W5yb/9/dY3MkqUbdWipV5JBvdieA97ZyA/e8QTlk+SXYfPQt8q1HqzD638=</diagram></mxfile>
+
 
 aby załączyć obrazek 
 
