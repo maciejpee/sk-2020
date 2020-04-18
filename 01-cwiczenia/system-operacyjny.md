@@ -44,45 +44,26 @@
 | routing table             | $ ip route show       | what is gateway?! default jest gatewayem  |
 | DNS config                | $ cat /etc/resolv.conf| which DNS  were set                   |
 
-### Konfiguracja połączenia sieciowego Alpine
+### Konfiguracja połączenia sieciowego 
 
 | Parametr      | wartość       | komentarzu |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15     | przydzielony przez DHCP |
 | Maska podsieci| 10.0.2.15/24  | Notacja cidr 255.255.255.0 | 
-| Brama         | 10.0.2.2      | #wg ip groupe show , default from route table|
-| DNS 1         | 10.10.0.8     | cat /etc/resolv.conf |
-| DNS 2         | 10.10.04      | nslookup uek.krakow.pl |
+| Brama         | 10.0.2.2      | default from route table|
+| DNS 1         | 10.10.4.204     | cat /etc/resolv.conf |
+| DNS 2         | 1.1.1.1      | nslookup uek.krakow.pl |
 
-### Konfiguracja połączenia sieciowego CentOS
-
-| Parametr      | wartość       | komentarzu |
-| ------------- |:-------------:| -----:|
-| Adres IP      | 127.0.0.1     | przydzielony przez DHCP |
-| Maska podsieci| 127.0.0.1/8   | Notacja cidr | 
-| Brama         | 10.0.2.2      | #wg ip groupe show |
-| DNS 1         | 10.10.0.8     |  |
-| DNS 2         | 10.10.04      |  |
-
-### Konfiguracja połączenia sieciowego Debian
-
-| Parametr      | wartość       | komentarzu |
-| ------------- |:-------------:| -----:|
-| Adres IP      | 127.0.0.1     | przydzielony przez DHCP |
-| Maska podsieci| 127.0.0.1/8   | Notacja cidr | 
-| Brama         | 10.0.2.2      | #wg ip groupe show |
-| DNS 1         | 10.10.0.8     |  |
-| DNS 2         | 10.10.04      |  |
 
 ## Charakterystyka mojego komputera w sieci domowej
 
 | Parametr      | wartość       | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      | 10.71.119.83  |  |
-| Maska podsieci| 225.225.240.0 |  | 
-| Brama         | 10.71.112.1   |  |
-| DNS 1         | 217.113.224.135     |  |
-| DNS 2         | 217.113.224.134      |  |
+| Adres IP      | 192.168.8.130  | ipconfig |
+| Maska podsieci| 225.225.255.0 | ipconfig | 
+| Brama         | 192.168.8.1   | ipconfig |
+| DNS 1         | 192.168.8.1    | ipconfig /all |
+
 
 ### Schemat sieci
 
