@@ -40,8 +40,8 @@
 | cfg interfejsów           | centos 7 | /etc/sysconfig/network-scripts         |
 | program (parametry sieci) | niewiem               |                           |
 | Nazwa                     | Alpine Linux              |                           |
-| Parametry IP              | $ ip all              |show all eth interfaces  |
-| routing table             | $ ip route show       | what is gateway?!  |
+| Parametry IP              | $ ip all              |show all eth interfaces (ip configuration)  |
+| routing table             | $ ip route show       | what is gateway?! default jest gatewayem  |
 | DNS config                | $ cat /etc/resolv.conf| which DNS  were set                   |
 
 ### Konfiguracja połączenia sieciowego Alpine
