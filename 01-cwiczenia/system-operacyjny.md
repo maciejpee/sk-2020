@@ -64,6 +64,15 @@
 | DNS 1         | 10.10.0.8     |  |
 | DNS 2         | 10.10.04      |  |
 
+### Konfiguracja połączenia sieciowego Debian
+
+| Parametr      | wartość       | komentarzu |
+| ------------- |:-------------:| -----:|
+| Adres IP      | 127.0.0.1     | przydzielony przez DHCP |
+| Maska podsieci| 127.0.0.1/8   | Notacja cidr | 
+| Brama         | 10.0.2.2      | #wg ip groupe show |
+| DNS 1         | 10.10.0.8     |  |
+| DNS 2         | 10.10.04      |  |
 
 ## Charakterystyka mojego komputera w sieci domowej
 
