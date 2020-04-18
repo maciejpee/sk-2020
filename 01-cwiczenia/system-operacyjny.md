@@ -67,6 +67,8 @@
 
 ### Schemat sieci
 
+![my network](siec_domowa.drawio)
+
 aby załączyć obrazek 
 
 ```markdown
