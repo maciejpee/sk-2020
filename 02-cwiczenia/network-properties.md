@@ -30,10 +30,13 @@ Weryfikacja połączenia
 
 Polecenie
 ```
+ping 10.0.15.4
+ping 10.0.15.6
 ```
 
 Efekt
 ```
+Nawiązanie połączenia pomiędzy maszynami
 ```
 
 Statyczna konfiguracja parametrów połączenia
