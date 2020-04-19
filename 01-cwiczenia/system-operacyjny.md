@@ -79,5 +79,5 @@ aby załączyć obrazek
 
 ![my network](network.png)
 
-Nauka sieci komputerowych może mi się przydać do lepszego zarządzania własną siecią domową, rozwiązywania problemów z nią związanych oraz głębszego zrozumienia działania internetu oraz połączenia między komputerem a serwerem.
+Nauka sieci komputerowych może mi się przydać do lepszego zarządzania własną siecią domową, rozwiązywania problemów z nią związanych oraz głębszego zrozumienia działania internetu oraz połączenia między komputerem a serwerem lub innymi urządzeniami.
 
