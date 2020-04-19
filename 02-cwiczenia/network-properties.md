@@ -45,14 +45,14 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | 192.168.10.10 | |
+| IP - address  | 192.168.10.10 | ip addr add 192.168.10.10/24 dev eth0 |
 | MASKA  | 255.255.255.0 | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  | 192.168.10.11 | |
+| IP - address  | 192.168.10.11 | ip addr add 192.168.10.11/23 dev eth0 |
 | MASKA  | 255.255.128.0 | |
 | PC 2  |  | |
-| IP - address  | 172.16.100.100 | |
+| IP - address  | 172.16.100.100 | ip addr add 172.16.100.100/16 dev eth0 |
 | MASKA  | 255.255.0.0 | |
 
 Weryfikacja połączenia
