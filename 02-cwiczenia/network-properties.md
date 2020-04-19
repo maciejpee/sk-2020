@@ -136,7 +136,7 @@ Udana próba połączenia
 
 Dlaczego? Jak? Co? :)
 
-Utrwalamy konfiguracje aby zachować ją po wyłączeniu maszyn. 
+Utrwalamy konfiguracje aby zachować ją po wyłączeniu maszyn. Można to zrobić poprzez modyfikację pliku z konfiguracją sieci.
 
 ### Warto wiedzieć
 
@@ -146,7 +146,7 @@ Utrwalamy konfiguracje aby zachować ją po wyłączeniu maszyn.
 | Lokalizacja pliku z konfiguracją sieci| etc/network/interfaces | |
 | UP -> Wyłączenie interfejsu sieciowego| | |
 | DOWN -> Włączenie interfejsu sieciowego| | |
-| Sprawdzenie obecnych parametrów | | |
-| lista wszystkich interfejsów | | |
+| Sprawdzenie obecnych parametrów | ip addr show| |
+| lista wszystkich interfejsów |vi etc/network/interfaces| |
 | Które interfejsy jakie porty słuchają | | |
 
