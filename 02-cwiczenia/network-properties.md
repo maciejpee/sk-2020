@@ -31,6 +31,15 @@ Weryfikacja połączenia
 Polecenie
 ```
 ping 10.0.15.4
+```
+
+Efekt
+```
+Nawiązanie połączenia pomiędzy maszynami
+```
+
+Polecenie
+```
 ping 10.0.15.6
 ```
 
@@ -59,11 +68,34 @@ Weryfikacja połączenia
 
 Polecenie
 ```
+ping 192.168.10.11
 ```
 
 Efekt
 ```
+Udana próba nawiązania połęczenia 
 ```
+
+Polecenie
+```
+ping 192.168.10.10
+```
+
+Efekt
+```
+Udana próba nawiązania połęczenia 
+```
+
+Polecenie
+```
+ping 172.16.100.100
+```
+
+Efekt
+```
+Nieudana próba nawiązania połęczenia 
+```
+
 
 Nowa statyczna konfiguracja 
 
@@ -71,26 +103,40 @@ Nowa statyczna konfiguracja
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  | 192.168.8.130 | ip addr add 192.168.8.130/24 dev eth0|
+| MASKA  | 255.255.255.0 | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  |  | |
-| MASKA  |  | |
+| IP - address  | 192.168.8.106 | ip addr add 192.168.8.106/24 dev eth0 |
+| MASKA  | 255.255.255.0 | |
 
 Weryfikacja połączenia
 
 Polecenie
 ```
+ping 192.168.8.106
 ```
 
 Efekt
 ```
+Udana próba połączenia
+```
+
+Polecenie
+```
+ping 192.168.8.130
+```
+
+Efekt
+```
+Udana próba połączenia
 ```
 
 ### Utrwalenie konfiguracji
 
 Dlaczego? Jak? Co? :)
+
+Utrwalamy konfiguracje aby zachować ją po wyłączeniu maszyn. 
 
 ### Warto wiedzieć
 
