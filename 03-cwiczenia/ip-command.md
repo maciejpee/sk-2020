@@ -25,6 +25,7 @@
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
 |   ``link``    |                               |  |
+|               |   ``ip link``                 | informacja o wszystkich interfejsach              |
 |   ``route``   |  | |
 |   ``maddr``   |  | |
 |   ``neigh``   |  | |
