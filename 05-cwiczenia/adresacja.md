@@ -127,7 +127,7 @@ Mając dany adres hosta i maskę znajdź:
   * Podziel sieć ```192.168.1.0``` na 16 równych podsieci
 ##   
 | Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
-| ----------- | -----------  |
+| ----------- | -----------  | ----------- |
 | ``192.168.1.0``    | | |
 | ````   | | |
 | ````   | | |
