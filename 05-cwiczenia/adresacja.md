@@ -9,15 +9,14 @@
 ### Jak policzyć?
 #### Adres sieci
 
-1. 
-2.
-3.
+1. Zamieniamy adres ip noda i maskę na system binarny 
+2. Mnożymy adres ip z maską
+3. Wynik zamieniamy spowrotem na system dziesiętny
 
 #### Adres rozgłoszeniowy
 
-1. 
-2.
-3.
+1. Wyliczamy odwrotność maski  
+2. Dodajemy do adresu sieci 
 
 
 ## Podział na równą ilość podsieci
