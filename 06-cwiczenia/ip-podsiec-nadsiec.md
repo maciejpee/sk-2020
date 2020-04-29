@@ -20,9 +20,9 @@ routing
 | destination | trasa | interfejs  |
 | --------- |:-------------| :---------------| 
 | ``PC1``     |  | |
-| ``default`` |  | enp0s3 ``ip route add 192.168.100.101/24 dev eth0`` |
+| ``default`` |  | enp0s3 ``ip route add default 192.168.100.1 dev eth0`` |
 | ``PC-R-1``  |  |        |
-| ```` |  | enp0s3 |
+| ``ip route add 192.168.100.101/24 dev eth0`` |  | enp0s3 |
 | ```` |  | enp0s8 |
 | mozna dzielic   |  |  |
 | ````  |  | enp0s8  |
