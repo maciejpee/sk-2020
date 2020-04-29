@@ -6,8 +6,8 @@ adresacja
 | PC     |  interfejs   | adres  |
 | --------- |:-------------| :---------------| 
 | ``PC1``   | enp0s3 | 192.168.100.101/24     |
-| ``PC-R-1``| enp0s3 | 192.168.100.1/24   |
-| ``PC-R-1``| enp0s8 | 192.168.200.97/29    |
+| ``PC-R-1``| enp0s3 |  192.168.200.97/29   |
+| ``PC-R-1``| enp0s8 | 192.168.100.1/24    |
 | ``PC-R-2``| enp0s3 | 192.168.200.98/29      |
 | ``PC-R-2``| enp0s8  | 192.168.0.129/27     |
 | ``PC-R-2``| enp0s9  | 192.168.0.193/27    |
@@ -22,8 +22,8 @@ routing
 | ``PC1``     |  | |
 | ``default`` | ``ip route add default via 192.168.100.1/24 dev eth0`` | enp0s3 ``ip addr add 192.168.100.101/24 dev eth0`` |
 | ``PC-R-1``  |  |        |
-| ```` |  | enp0s3 ``ip addr add 192.168.100.1/24 dev eth0`` |
-| ``PC1`` |  | enp0s8 |
+| ``default`` | ``ip route add default via 192.168.200.98/29 dev eth0  | enp0s3 ``ip addr add 192.168.100.1/24 dev eth0`` |
+| ``default`` |  | enp0s8 ``ip addr add 192.168.100.1/24 dev eth0`` |
 | mozna dzielic   |  |  |
 | ````  |  | enp0s8  |
 | ```` |  | enp0s8  ```` |
