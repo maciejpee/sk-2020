@@ -29,7 +29,7 @@ routing
 | ``192.168.0.128/27`` | ``ip route add 192.168.0.128/27 via 192.168.200.98/29 dev eth1`` | enp0s8 |
 | ``192.168.0.192/27`` | ``ip route add 192.168.0.192/27 via 192.168.200.98/29 dev eth1``  | enp0s8 |
 | lub za 1 iteracją   |  |  |
-| ````   |  | enp0s8 ````|
+| ``192.168.0.64/27`` ``192.168.0.128/27`` ``192.168.0.192/27``   | ``ip route add 192.168.0.0/24 via 192.168.200.98/29 dev eth1``  | enp0s8|
 | ``PC-R-2``  |  |        |
 | ``default`` | ``ip route add default via 192.168.200.97/29 dev eth0``  | enp0s3 ``ip addr add 192.168.200.98/29 dev eth0`` |
 | ``192.168.100.0/24`` | ``ip route add 192.168.100.0/24 via 192.168.200.97/29 dev eth0``  | enp0s3 |
