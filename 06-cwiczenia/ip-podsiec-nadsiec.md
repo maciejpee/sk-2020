@@ -22,8 +22,8 @@ routing
 | ``PC1``     |  | |
 | ``default`` | ``ip route add default via 192.168.100.1/24 dev eth0`` | enp0s3 ``ip addr add 192.168.100.101/24 dev eth0`` |
 | ``PC-R-1``  |  |        |
-| ```` |  | enp0s3 |
-| ```` |  | enp0s8 |
+| ```` |  | enp0s3 ``ip addr add 192.168.100.1/24 dev eth0`` |
+| ``PC1`` |  | enp0s8 |
 | mozna dzielic   |  |  |
 | ````  |  | enp0s8  |
 | ```` |  | enp0s8  ```` |
