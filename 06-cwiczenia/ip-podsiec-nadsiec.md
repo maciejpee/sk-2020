@@ -9,10 +9,10 @@ adresacja
 | ``PC-R-1``| enp0s3 | 192.168.100.1/24   |
 | ``PC-R-1``| enp0s8 | 192.168.200.97/29    |
 | ``PC-R-2``| enp0s3 | 192.168.200.98/29      |
-| ``PC-R-2``| enp0s8  |       |
-| ``PC-R-2``| enp0s9  |     |
-| ``PC-R-2``| enp0s10 |      |
-| ``PC2``   | enp0s3  | 192.168.0.128/27   |
+| ``PC-R-2``| enp0s8  | 192.168.0.129/27     |
+| ``PC-R-2``| enp0s9  | 192.168.0.193/27    |
+| ``PC-R-2``| enp0s10 | 192.168.0.65/27     |
+| ``PC2``   | enp0s3  | 192.168.0.130/27   |
 
 routing
 -------
@@ -20,9 +20,9 @@ routing
 | destination | trasa | interfejs  |
 | --------- |:-------------| :---------------| 
 | ``PC1``     |  | |
-| ``default`` |  | enp0s3 ``ip route add default 192.168.100.1 dev eth0`` |
+| ``default`` |  | enp0s3 ``ip route add default via 192.168.100.1 dev eth0`` |
 | ``PC-R-1``  |  |        |
-| ``ip route add 192.168.100.101/24 dev eth0`` |  | enp0s3 |
+| ```` |  | enp0s3 |
 | ```` |  | enp0s8 |
 | mozna dzielic   |  |  |
 | ````  |  | enp0s8  |
