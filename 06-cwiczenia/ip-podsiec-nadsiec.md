@@ -20,7 +20,7 @@ routing
 | destination | trasa | interfejs  |
 | --------- |:-------------| :---------------| 
 | ``PC1``     |  | |
-| ``default`` |  | enp0s3 ``ip route add default via 192.168.100.1 dev eth0`` |
+| ``default`` |  | enp0s3 ``ip addr add 192.168.100.1 dev eth0`` |
 | ``PC-R-1``  |  |        |
 | ```` |  | enp0s3 |
 | ```` |  | enp0s8 |
