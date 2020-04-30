@@ -27,7 +27,7 @@ Jaki parametry konfiguracji można ustawić z wykorzystaniem DHCP
 | Maska podsieci                |
 | Brama  |
 | Serwer DNS |
-| Startowy adres IP|
+| Początkowy adres IP dla innych urządzeń|
 | Maksymalna liczba użytkowników |
 | |
 
