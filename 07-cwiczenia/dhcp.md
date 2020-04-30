@@ -25,10 +25,10 @@ Jaki parametry konfiguracji można ustawić z wykorzystaniem DHCP
 | -------------                 |
 | Adres IP                      |
 | Maska podsieci                |
-| |
-| |
-| |
-| |
+| Brama  |
+| Serwer DNS |
+| Startowy adres IP|
+| Maksymalna liczba użytkowników |
 | |
 
 ## Przydatne polecenia
